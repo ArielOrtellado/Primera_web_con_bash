@@ -117,7 +117,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  
+  margin-top: -50px;
+  background: rgba(0, 0, 0, 0.254);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -4244,6 +4245,9 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
+  display: inline-block;
+  background: #e9d6008f;
+  
 }
 
 .card-subtitle {
