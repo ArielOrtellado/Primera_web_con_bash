@@ -4246,8 +4246,7 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
-  display: inline-block;
-  background: #e9d6008f;
+  text-align: center;
   
 }
 
